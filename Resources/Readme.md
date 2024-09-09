@@ -1,0 +1,1 @@
+Here we have the graphics files used by the program.  Some are made by me.  There was originally a single ball pic that I've modified and replicated into the various balls you see now.  I don't remember where that ball pic came from but I think it was public domain.
