@@ -1,0 +1,62 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\ball_black.png" />
+    <None Remove="Resources\ball_blue.png" />
+    <None Remove="Resources\ball_gray.png" />
+    <None Remove="Resources\ball_green.png" />
+    <None Remove="Resources\ball_highlight.png" />
+    <None Remove="Resources\ball_orange.png" />
+    <None Remove="Resources\ball_purple.png" />
+    <None Remove="Resources\ball_red.png" />
+    <None Remove="Resources\ball_white.png" />
+    <None Remove="Resources\ball_yellow.png" />
+    <None Remove="Resources\flask_bottom.png" />
+    <None Remove="Resources\flask_mid.png" />
+    <None Remove="Resources\flask_new.png" />
+    <None Remove="Resources\flask_stopper.png" />
+    <None Remove="Resources\flask_top.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\ball_black.png" />
+    <EmbeddedResource Include="Resources\ball_blue.png" />
+    <EmbeddedResource Include="Resources\ball_gray.png" />
+    <EmbeddedResource Include="Resources\ball_green.png" />
+    <EmbeddedResource Include="Resources\ball_highlight.png" />
+    <EmbeddedResource Include="Resources\ball_orange.png" />
+    <EmbeddedResource Include="Resources\ball_purple.png" />
+    <EmbeddedResource Include="Resources\ball_red.png" />
+    <EmbeddedResource Include="Resources\ball_white.png" />
+    <EmbeddedResource Include="Resources\ball_yellow.png" />
+    <EmbeddedResource Include="Resources\flask_bottom.png" />
+    <EmbeddedResource Include="Resources\flask_mid.png" />
+    <EmbeddedResource Include="Resources\flask_new.png" />
+    <EmbeddedResource Include="Resources\flask_stopper.png" />
+    <EmbeddedResource Include="Resources\flask_top.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>
